@@ -1,0 +1,12 @@
+package com.sharad.dc.binding;
+
+import lombok.Data;
+
+@Data
+public class PlanSelectionInput {
+
+    private Integer caseNo;
+    private Integer appId;
+    private Integer  planId;
+    private String  planName;
+}
