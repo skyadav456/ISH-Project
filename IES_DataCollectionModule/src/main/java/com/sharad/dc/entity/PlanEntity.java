@@ -28,8 +28,6 @@ public class PlanEntity {
     private String activeSw;
     @CreationTimestamp
     @Column(updatable=false)
-
-
     private LocalDate creationDate;
     @UpdateTimestamp
     @Column(insertable=false)
